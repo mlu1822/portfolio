@@ -3,7 +3,7 @@ Product design portfolio for Margaret Lu
 
 ## Education
 Carnegie Mellon University, Master of Human-Computer Interaction, 2023-2024
-Georgia Institute of Technology, Industrial Design, 2018-2023
+<br>Georgia Institute of Technology, Industrial Design, 2018-2023
 
 ## Experience
 Product Designer, NASA x CMU Capstone, 2024
