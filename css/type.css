@@ -1,0 +1,152 @@
+/* Typography Sheet */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+@font-face {
+    font-family: "P22 Mackinac Pro";
+    src: url(../assets/fonts/P22MackinacPro-MedItalic.otf) format("opentype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+:root {
+    --display-font-family: "Inter Tight", "Inter", Helvetica, Arial, sans-serif;
+    --body-font-family: "Inter", Helvetica, Arial, sans-serif;
+    --serif-font-family: "P22 Mackinac Pro", "Times New Roman", Times, serif;
+    --monospace-font-family: "Azeret Mono", "Courier New", Courier, monospace;
+}
+
+
+/* Font Families */
+.t-inter {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.t-inter-tight {
+    font-family: "Inter Tight", "Inter", Arial, Helvetica, sans-serif;
+}
+
+.t-p22 {
+    font-family: "P22 Mackinac Pro", 'Times New Roman', Times, serif;
+    font-weight: 500;
+    /* font-style: italic; */
+}
+
+.t-azeret-mono {
+    font-family: "Azeret Mono", 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+/* Default Typography Styling */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Inter Tight", "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.subheader, .body-1, .body-2, .body-3 {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+    line-height: 4.0rem;
+}
+
+h3 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+h4 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+}
+
+h5 {
+    font-size: 2rem;
+    line-height: 2.25rem;
+}
+
+h6 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+.subheader {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.body-1 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.body-2 {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.body-3 {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.caption {
+    font-family: "Azeret Mono", "Courier New", Courier, monospace;
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+/* Home Page Typography */
+
+/* Project Page Typography */
+.t-p-s-title {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.t-p-s-subtitle {
+    font-size: 0.75rem;
+}
+
+.t-p-s-body {
+    font-size: 0.875rem;
+}
+
+.t-p-title {
+    font-size: 2rem; /* 32px */
+    font-weight: 600;
+}
+
+.t-p-subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
+
+.t-p-body {
+    line-height: 1.5rem;
+}
+
+.t-p-breadcrumb {
+    font-size: 0.875rem;
+}

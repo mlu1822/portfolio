@@ -1,0 +1,35 @@
+/* Treatment of media */
+.i-container {
+    width: 100%;
+    height: 100%;
+}
+
+.i-cover {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.i-full-w {
+    width: 100%;
+}
+
+.i-full-h {
+    height: 100%;
+}
+
+.i-round-8 {
+    border-radius: 0.5rem;
+}
+
+/* Videos */
+.video-container {
+    width: 100%;
+    height: 100%;
+}
+
+.video-cover {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

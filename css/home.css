@@ -1,0 +1,38 @@
+/* Page layout */
+main {
+    height: 100vh;
+}
+
+.col-l-50 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro, .projects {
+    padding: 4rem;
+}
+
+
+
+/* Projects */
+.p-item {
+    width: 100%;
+}
+
+.p-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Project hovering color change animation */
+.p-item {
+    display: inline-block;
+    transition: 250ms;
+}
+
+.p-item:hover {
+    color: #0133A5;
+    transform: translateX(1rem);
+    transition: 250ms;
+}

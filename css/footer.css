@@ -1,0 +1,49 @@
+footer {
+    margin: 4rem;
+}
+
+.foot-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.foot-content-container {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.foot-content {
+    width: 25%;
+    text-align: right;
+    /* background-color: palegoldenrod; */
+}
+
+.foot-link {
+    color: var(--c-text-primary);
+    text-decoration: none;
+    position: relative;
+}
+
+
+
+/* Link underline animation */
+.foot-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    height: 1px;
+    background-color: var(--c-bkgd-inverse);
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
+}
+
+.foot-link:hover::before {
+    width: 100%;
+    transform: scaleX(1);
+}

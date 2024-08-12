@@ -1,0 +1,39 @@
+/* Navigation Bar Styling */
+.nav-bar {
+    position: sticky;
+    /* top: 0; */
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: flex;
+    gap: 4rem;
+}
+
+/* Smooth transition effect */
+/* .nav-brand:hover {
+    color: #ccc;
+}
+
+.nav-brand span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.nav-brand span.second {
+    opacity: 0;
+}
+
+.nav-brand:hover span.first {
+    opacity: 0;
+}
+
+.nav-brand:hover span.second {
+    opacity: 1;
+} */

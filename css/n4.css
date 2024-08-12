@@ -1,0 +1,36 @@
+/* Sidebar color hover animation */
+.n4-c-a {
+    transition: 250ms;
+}
+
+.n4-c-a:hover {
+    color: #aaa;
+    transition: 250ms;
+}
+
+
+
+
+
+
+.bike2 {
+    padding-left: 1rem;
+}
+
+.bike3 {
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.bike4 {
+    padding-top: 1rem;
+}
+
+.bike50 {
+    width: 50%;
+}
+
+.bike50-padding {
+    display: flex;
+    gap: 1rem;
+}
